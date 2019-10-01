@@ -1,11 +1,14 @@
 # Write your code here!
 def game_hash
   {
-    :home => {
-
+    :home => {:team_name => ""
+      :colors => []
+      :players => []
     }
-    :away => {
-      
+    :away => { :team_name => ""
+      :colors => []
+      :players => []
+
     }
 
   }
