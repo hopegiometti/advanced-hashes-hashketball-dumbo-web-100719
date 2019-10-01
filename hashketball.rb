@@ -201,7 +201,6 @@ def big_shoe_rebounds
           stats.each do |k ,v|
             if k == :shoe
               stats[:shoe]
-          binding.pry
           end
         end
       end
