@@ -155,6 +155,5 @@ end
 def team_names
   game_hash.each do |location, team|
     return ["#{team[:team_name]}", "#{team[:team_name]}"]
-    binding.pry
   end
 end
