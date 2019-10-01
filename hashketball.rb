@@ -219,9 +219,6 @@ def most_points_scored
       if attribute = :players
         data.each do |player|
           binding.pry
-          if player[:points] > highest_scorer
-          highest_scorer = player[:player_name]
-          end
         end
       end
     end
