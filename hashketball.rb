@@ -220,7 +220,6 @@ def most_points_scored
         data.each do |player|
             if player[:points] > highest_scorer
               highest_scorer = player[:player_name]
-            end
           end
         end
       end
