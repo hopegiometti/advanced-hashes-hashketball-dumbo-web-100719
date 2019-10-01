@@ -208,4 +208,18 @@ def big_shoe_rebounds
   end
 end
 player_w_big_shoes = shoe_sizes_w_names.key(shoe_sizes_w_names.values.max)
+game_hash.each do |location, team|
+  team.each do |attribute, data|
+    if attribute == :players
+      data.each do |name, stats|
+        if name == player_w_big_shoes
+          stats.each do |k, v|
+            if k == :rebounds
+              return v.to_i
+            end
+          end
+        end
+      end
+    end
+  end
 end
