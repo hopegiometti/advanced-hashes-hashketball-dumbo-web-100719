@@ -213,10 +213,12 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
+  most_ponts = 0
+  highest_scorer = ""
   game_hash.each do |location, team|
     team.each do |attribute, data|
       if attribute = :players
         data.each do |player|
-          
+
 
 end
