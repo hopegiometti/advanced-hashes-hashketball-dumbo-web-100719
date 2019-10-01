@@ -223,6 +223,10 @@ def most_points_scored
             if player[:points] > most_points
               most_points = player[:points]
               highest_scorer = player[:player_name]
-
-
+            end
+          end
+        end
+      end
+    end
+  end
 end
