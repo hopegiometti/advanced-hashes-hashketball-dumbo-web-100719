@@ -114,5 +114,6 @@ def game_hash
   }
 end
 
-def num_points_scored
+def num_points_scored(player_name)
+  game_hash[:home][:players][:player_name][:points]
 end
