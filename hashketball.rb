@@ -211,17 +211,3 @@ def big_shoe_rebounds
   end
   rebounds
 end
-
-def most_points_scored
-  highest_scorer = nil
-  game_hash.each do |location, team|
-    team.each do |attribute, data|
-      if attribute = :players
-        data.each do |player|
-          binding.pry
-        end
-      end
-    end
-  end
-  highest_scorer
-end
