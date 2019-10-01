@@ -147,6 +147,8 @@ end
 def team_colors(team_name)
   game_hash.each do |location, team|
     team.each do |attribute, data|
+      if attribute == :colors
+        return attribute[:colors]
       binding.pry
     end
   end
