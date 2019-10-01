@@ -161,7 +161,9 @@ end
 def player_numbers(team_name)
   game_hash.each do |location, team|
     if team[:team_name] == team_name
-      binding.pry
+      team.each do |attribute, data|
+      
+      end
     end
   end
 end
