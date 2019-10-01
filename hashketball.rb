@@ -200,10 +200,12 @@ def big_shoe_rebounds
         data.each do |name, stats|
           stats.each do |k, v|
             if k == :shoe
-              v = shoe_sizes_w_names[name] 
+              v = shoe_sizes_w_names[name]
           end
         end
       end
     end
   end
+end
+player_w_big_shoes = shoe_sizes_w_names.key(shoe_sizes_w_names.values.max)
 end
