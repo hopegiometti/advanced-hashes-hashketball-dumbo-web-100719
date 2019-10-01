@@ -180,6 +180,7 @@ def player_stats(player_name)
     team.each do |attribute, data|
       if attribute == :players
         stats << :players
+      end
     end
   end
   stats
