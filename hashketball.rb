@@ -205,5 +205,3 @@ def big_shoe_rebounds
     end
   rebounds
 end
-
-#game_hash.each do | team, team_details_hash|
