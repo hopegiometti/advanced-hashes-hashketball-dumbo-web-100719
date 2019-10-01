@@ -167,7 +167,7 @@ def player_numbers(team_name)
           "#{attribute[:players][:number]}",
           "#{attribute[:players][:number]}",
           "#{attribute[:players][:number]}",
-          "#{attribute[:players][:number]}" 
+          "#{attribute[:players][:number]}"
         ]
         end
       end
