@@ -199,7 +199,8 @@ def big_shoe_rebounds
       if attribute == :players
         data.each do |name, stats|
           stats.each do |k, v|
-            
+            if k == :shoe
+              v = shoe_sizes_w_names[name] 
           end
         end
       end
