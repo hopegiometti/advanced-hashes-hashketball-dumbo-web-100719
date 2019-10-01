@@ -170,7 +170,6 @@ def player_numbers(team_name)
           "#{attribute[:players][:number]}" 
         ]
         end
-        binding.pry
       end
     end
   end
