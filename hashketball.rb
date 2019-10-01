@@ -214,7 +214,7 @@ end
 
 def most_points_scored
   most_ponts = 0
-  highest_scorer = ""
+  highest_scorer = nil
   game_hash.each do |location, team|
     team.each do |attribute, data|
       if attribute = :players
