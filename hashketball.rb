@@ -213,7 +213,6 @@ def big_shoe_rebounds
 end
 
 def most_points_scored
-  most_points = 0
   highest_scorer = nil
   game_hash.each do |location, team|
     team.each do |attribute, data|
