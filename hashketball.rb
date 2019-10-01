@@ -200,7 +200,7 @@ def big_shoe_rebounds
         data.each do |name, stats|
           stats.each do |k, v|
             if k == :shoe
-              shoe_sizes_w_names[name]
+              shoe_sizes_w_names[name] = v
           end
         end
       end
