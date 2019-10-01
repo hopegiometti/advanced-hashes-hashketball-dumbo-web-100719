@@ -198,5 +198,5 @@ def big_shoe_rebounds
     team.each do |attribute, data|
       
     end
-  end    
+  end
 end
