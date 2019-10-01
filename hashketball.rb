@@ -181,7 +181,9 @@ def player_stats(player_name)
       if attribute == :players
         data.each do |player|
           if player[:player_name] == player_name
-            stats = player
+            stats = player.delete_if do |k, v|
+              k == player_name
+            end
           end
         end
       end
